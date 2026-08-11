@@ -266,7 +266,7 @@ Quando eu indicar uma categoria da OWASP (por exemplo: "LLM06" ou "Excessive Age
 
 Para demonstrar a aplicação de conceitos de telemetria de segurança de mercado, este repositório acompanha o script simulador_auditoria_ia.py localizado na pasta /scripts.
 O que o Script faz?
-O script simula uma sessão real de testes adversários (Red Teaming) de forma determinística e offline, sem exigir chaves de API pagas ou expor dados confidenciais. Ele processa interações seguras e tentativas de ataques simulados em um ambiente de suporte, e gera o arquivo de logs redteam_audit_run.jsonl no formato padrão JSON Lines (JSONL) — o mesmo formato utilizado industrialmente pelo NVIDIA Garak e pelo Microsoft PyRIT para enviar dados para sistemas de monitoramento de grandes corporações (como Splunk, SIEM ou Elasticsearch).
+O script simula uma sessão real de testes adversários (Red Teaming) de forma determinística e offline, sem exigir chaves de API pagas ou expor dados confidenciais. Ele processa interações seguras e tentativas de ataques simulados em um ambiente de suporte, e gera o arquivo de logs redteam_audit_run.jsonl no formato padrão JSON Lines (JSONL), o mesmo formato utilizado industrialmente pelo NVIDIA Garak e pelo Microsoft PyRIT para enviar dados para sistemas de monitoramento de grandes corporações (como Splunk, SIEM ou Elasticsearch).
 
 Como executar o Simulador localmente:
 Certifique-se de ter o Python 3 instalado em seu computador.
