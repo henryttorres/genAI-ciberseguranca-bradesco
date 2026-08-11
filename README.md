@@ -57,6 +57,41 @@ graph TD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 🎯 1. Contexto e Objetivos do Projeto
 
 ### Contexto de Mercado e Inovação
