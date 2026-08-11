@@ -6,7 +6,7 @@ Este repositório apresenta o projeto final desenvolvido para o **Bootcamp Brade
 ### Índice de Navegação
 * [1. Contexto e Objetivos do Projeto](#ancora-contexto)
 * [2. Curadoria de Fontes de Elite](#ancora-fontes)
-* [3. Engenharia de Prompts e Troubleshooting](#ancora-prompts)
+* [3. Engenharia de Prompt e Troubleshooting](#ancora-prompts)
 * [4. Miniguia de Estudo e Glossário Técnico](#ancora-glossario)
 * [5. Simulador de Logs de Auditoria Corporativa](#ancora-simulador)
 
