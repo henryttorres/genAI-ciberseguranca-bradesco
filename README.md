@@ -57,7 +57,7 @@ graph TD
 
 
 
-## 🎯 1. Contexto e Objetivos do Projeto
+🎯 1. Contexto e Objetivos do Projeto
 
 ### Contexto de Mercado e Inovação
 A adoção de Inteligência Artificial Generativa no Sistema Financeiro Nacional não é mais uma tendência de futuro, mas um pilar de sobrevivência e escala operacional. O **Bradesco** tem liderado essa transformação com investimentos estratégicos expressivos. A instituição alcançou resultados históricos ao registrar **90% de eficácia na resolução de solicitações sem intervenção humana** em seus canais digitais (como Pix e WhatsApp). 
