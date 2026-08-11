@@ -1,6 +1,6 @@
 # 🛡️ Inteligência Artificial Generativa e Cibersegurança Corporativa no Ecossistema Financeiro
 
-Este repositório apresenta o projeto final desenvolvido para o **Bootcamp Bradesco - GenAI, Dados & Cyber** em parceria com a **Digital Innovation One (DIO)**. O objetivo deste projeto é demonstrar a convergência entre a IA Generativa como ferramenta de aceleração defensiva e os novos vetores de risco semântico que exigem blindagem arquitetural e simulação de ameaças no setor bancário.
+Este repositório apresenta o projeto final desenvolvido no módulo de GenAI para o **Bootcamp Bradesco - GenAI, Dados & Cyber** em parceria com a **Digital Innovation One (DIO)**. O objetivo deste projeto é demonstrar a convergência entre a IA Generativa como ferramenta de aceleração defensiva e os novos vetores de risco semântico que exigem blindagem arquitetural e simulação de ameaças no setor bancário.
 
 
 ### Índice de Navegação
