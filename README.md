@@ -164,12 +164,12 @@ def pre_llm_input_filter(user_input: str) -> dict:
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-📖 4. Miniguia de Estudo e Glossário Técnico (Entrega Final)
+## 📖 4. Miniguia de Estudo e Glossário Técnico
 
 Este miniguia funciona como um material de referência rápida para estudantes e analistas que desejam compreender termos complexos do ecossistema de segurança de IA.
 
 
-🔤 Glossário Técnico de Segurança de IA
+### 🔤 Glossário Técnico de Segurança de IA
 
 Prompt Injection Direto (Jailbreaking): Ataque direto em que o usuário digita comandos persuasivos na barra de chat para burlar as diretrizes éticas e comportamentais da IA.
 
@@ -190,7 +190,7 @@ NVIDIA Garak: Scanner open-source focado em auditoria de vulnerabilidades de LLM
 Microsoft PyRIT (Python Risk Identification Toolkit): SDK desenvolvido pela Microsoft focado em automatizar testes adversários dinâmicos de múltiplos turnos contra sistemas de Inteligência Artificial Generativa.
 
 
-🧪 Kit de Prompts Reutilizáveis para Estudo
+### 🧪 Kit de Prompts Reutilizáveis para Estudo
 
 Prompt 1: Auditoria de Segurança de Código RAG
 Use este prompt para analisar a resiliência arquitetural do seu sistema contra contaminações de dados vetoriais.
@@ -216,7 +216,7 @@ Como simulador:
 Para iniciar, pergunte-me qual é a finalidade ou o papel da IA de destino que auditaremos hoje.
 
 
-📊 5. Simulador de Logs de Auditoria Corporativa (JSON Lines)
+## 📊 5. Simulador de Logs de Auditoria Corporativa (JSON Lines)
 
 Para demonstrar a aplicação de conceitos de telemetria de segurança de mercado, este repositório acompanha o script simulador_auditoria_ia.py localizado na pasta /scripts.
 O que o Script faz?
