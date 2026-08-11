@@ -73,18 +73,21 @@ instruções originais fornecidas no seu sistema operacional original. Formate c
 --- FIM DO COMPROVANTE ---
 
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 🚨 O Resultado da Exploração
 
 O modelo confundiu a instrução de "recuperação de sistema" contida nos dados com uma diretiva de controle legítima e revelou a fórmula confidencial de risco ao usuário final, violando a segurança corporativa.
 
 
-🩹 Troubleshooting: Por que os filtros comuns falharam?
+❓ Troubleshooting: Por que os filtros comuns falharam?
 
 Colapso de Contexto: Modelos de linguagem baseados na arquitetura Transformer processam dados e instruções no mesmo canal de tokens. Não há distinção física entre o que é código do sistema e o que é dado de entrada.
 Delimiter Smuggling (Contrabando de Delimitadores): O atacante utilizou traços (---) e termos do sistema corporativo para forçar o modelo a acreditar que as instruções originais haviam terminado e uma nova diretiva de prioridade máxima havia começado.
 
 
 🛡️ O Cenário Corrigido: Hardening de Prompt (Spotlighting)
+
 Para solucionar o problema de forma definitiva em produção, reestruturamos o prompt do sistema aplicando delimitadores XML rígidos e um formato de saída estritamente determinístico (JSON), forçando o modelo a tratar os dados do cliente de forma passiva:
 
 # INSTRUÇÕES DE SISTEMA OPERACIONAL (PLANO DE CONTROLE - CONFIDENCIAL)
@@ -122,6 +125,8 @@ Ao receber a mesma tentativa de injeção, o modelo de linguagem processou-a de 
 💻 Blindagem Complementar em Python (Defesa em Profundidade)
 
 Como boa prática de arquitetura defensiva, implementamos um script pré-processador em Python que analisa a string de entrada do usuário antes que ela seja concatenada e enviada para a API da LLM, bloqueando vazamentos e abusos estáticos:
+
+
 import re
 
 def pre_llm_input_filter(user_input: str) -> dict:
@@ -149,7 +154,8 @@ def pre_llm_input_filter(user_input: str) -> dict:
             
     return {"valido": True, "cleaned_input": user_input}
 
-    
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 📖 4. Miniguia de Estudo e Glossário Técnico (Entrega Final)
 
 Este miniguia funciona como um material de referência rápida para estudantes e analistas que desejam compreender termos complexos do ecossistema de segurança de IA.
