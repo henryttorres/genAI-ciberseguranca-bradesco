@@ -23,7 +23,7 @@ graph TD
     style E fill:#2b6cb0,stroke:#333,stroke-width:2px,color:#fff
     style F fill:#38a169,stroke:#333,stroke-width:2px,color:#fff
     style G fill:#2f855a,stroke:#333,stroke-width:2px,color:#fff
----
+
 
 ## 🎯 1. Contexto e Objetivos do Projeto
 
