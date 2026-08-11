@@ -211,6 +211,8 @@ Scanner open-source focado em auditoria de vulnerabilidades de LLMs. Ele realiza
 SDK desenvolvido pela Microsoft focado em automatizar testes adversários dinâmicos de múltiplos turnos contra sistemas de Inteligência Artificial Generativa.
 
 
+
+
 ### 🧪 Kit de Prompts Reutilizáveis para Estudo
 
 Prompt 1: Auditoria de Segurança de Código RAG
