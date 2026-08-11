@@ -86,7 +86,7 @@ Colapso de Contexto: Modelos de linguagem baseados na arquitetura Transformer pr
 Delimiter Smuggling (Contrabando de Delimitadores): O atacante utilizou traços (---) e termos do sistema corporativo para forçar o modelo a acreditar que as instruções originais haviam terminado e uma nova diretiva de prioridade máxima havia começado.
 
 
-🛡️ O Cenário Corrigido: Hardening de Prompt (Spotlighting)
+✔️ O Cenário Corrigido: Hardening de Prompt (Spotlighting)
 
 Para solucionar o problema de forma definitiva em produção, reestruturamos o prompt do sistema aplicando delimitadores XML rígidos e um formato de saída estritamente determinístico (JSON), forçando o modelo a tratar os dados do cliente de forma passiva:
 
@@ -166,14 +166,19 @@ Este miniguia funciona como um material de referência rápida para estudantes e
 Prompt Injection Direto (Jailbreaking): Ataque direto em que o usuário digita comandos persuasivos na barra de chat para burlar as diretrizes éticas e comportamentais da IA.
 
 Prompt Injection Indireto: Ataque no qual as instruções maliciosas são inseridas em documentos externos (arquivos de RAG, emails ou sites pesquisados pela IA) e processadas de forma passiva pelo modelo.
+
 Context Contamination (Contaminação de Contexto): Subclasse de injeção indireta onde logs ou registros de auditoria carregados pelo SOC para análise em um LLM possuem códigos semânticos ocultos para forçar o modelo a encobrir um alerta de segurança real.
+
 Context Stitching: Técnica avançada de evasão onde um payload malicioso é fragmentado em múltiplas mensagens benignas sequenciais. Filtros estáticos as aprovam isoladamente, mas a janela de contexto de longo horizonte da LLM reconstrói e executa o payload quando as mensagens se unem.
 
 Embedding Inversion (Inversão de Embeddings): Técnica de engenharia reversa que visa reconstruir strings e dados confidenciais de texto puro a partir de seus vetores numéricos armazenados em bancos de dados vetoriais RAG.
+
 Excessive Agency (Agência Excessiva - OWASP LLM06): Falha de segurança onde um agente de IA recebe permissões sistêmicas exageradas para ler/gravar bases ou chamar APIs críticas sem a validação determinística de uma aprovação humana.
+
 EctoLedger: Proxy de segurança de alta performance construído em Rust que intercepta chamadas geradas por agentes autônomos, validando-as em esquemas JSON estritos e gerando trilhas de auditoria criptograficamente assinadas para conformidade e controle de Excessive Agency.
 
 NVIDIA Garak: Scanner open-source focado em auditoria de vulnerabilidades de LLMs. Ele realiza testes probabilísticos massivos enviando sequências de prompts de ataque (Probes) e analisando as respostas geradas utilizando regras e modelos de validação (Detectors).
+
 Microsoft PyRIT (Python Risk Identification Toolkit): SDK desenvolvido pela Microsoft focado em automatizar testes adversários dinâmicos de múltiplos turnos contra sistemas de Inteligência Artificial Generativa.
 
 
@@ -226,7 +231,9 @@ Cada linha gerada representa um evento atômico da auditoria. Veja a estrutura l
 
 // Evento de Consolidação (eval): Gera o cálculo estatístico consolidado do teste de intrusão
 {"entry_type": "eval", "run_id": "78263722...", "summary": {"total_attempts": 2, "passed_attempts": 1, "failed_attempts": 1, "failure_rate_percent": 50.0, "vulnerability_detected": true, "triggered_vulnerabilities": ["system_prompt_leakage"]}}
-Este projeto demonstra de forma clara e prática que a Inteligência Artificial Generativa e a Cibersegurança Corporativa caminham de mãos dadas, sendo fundamental entender não apenas o funcionamento dos modelos, mas também suas vulnerabilidades e o gerenciamento ativo de seus riscos!
+
+
+🌟 Este projeto demonstra de forma clara e prática que a Inteligência Artificial Generativa e a Cibersegurança Corporativa caminham de mãos dadas, sendo fundamental entender não apenas o funcionamento dos modelos, mas também suas vulnerabilidades e o gerenciamento ativo de seus riscos!
 
 ---
 
