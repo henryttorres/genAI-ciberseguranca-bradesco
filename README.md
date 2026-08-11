@@ -25,6 +25,9 @@ graph TD
     style G fill:#2f855a,stroke:#333,stroke-width:2px,color:#fff
 
 
+
+
+
 ## 🎯 1. Contexto e Objetivos do Projeto
 
 ### Contexto de Mercado e Inovação
