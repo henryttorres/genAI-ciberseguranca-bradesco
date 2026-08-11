@@ -4,14 +4,14 @@ Este repositório apresenta o projeto final desenvolvido para o **Bootcamp Brade
 
 
 ### Índice de Navegação
-* [1. Contexto e Objetivos do Projeto](#1-contexto-e-objetivos-do-projeto)
-* [2. Curadoria de Fontes de Elite](#2-curadoria-de-fontes-de-elite)
-* [3. Engenharia de Prompts e Cicatrizes](#3-engenharia-de-prompt-e-troubleshooting)
-* [4. Miniguia de Estudo e Glossário Técnico](#4-miniguia-de-estudo-e-glossário-técnico)
-* [5. Simulador de Logs de Auditoria Corporativa](#5-simulador-de-logs-de-auditoria-corporativa)
+* [1. Contexto e Objetivos do Projeto](#ancora-contexto)
+* [2. Curadoria de Fontes de Elite](#ancora-fontes)
+* [3. Engenharia de Prompts e Troubleshooting](#ancora-prompts)
+* [4. Miniguia de Estudo e Glossário Técnico](#ancora-glossario)
+* [5. Simulador de Logs de Auditoria Corporativa](#ancora-simulador)
 
 
-
+<a id="ancora-contexto"></a>
 ## 🎯 1. Contexto e Objetivos do Projeto
 
 ### Contexto de Mercado e Inovação
@@ -28,7 +28,7 @@ Essa operação é sustentada pela plataforma corporativa **Bridge**, a infraest
 *   **Explicar a Telemetria e Auditoria de Segurança:** Demonstrar como as equipes de segurança de grandes corporações (como o SOC do Bradesco) utilizam logs estruturados para monitorar e auditar tentativas de ataque contra seus modelos de linguagem.
 
 ---
-
+<a id="ancora-fontes"></a>
 ## 📚 2. Curadoria de Fontes de Elite
 
 Para embasar teoricamente as simulações e diretrizes deste repositório, selecionamos **5 fontes altamente técnicas** extraídas da base de estudos do Bootcamp:
@@ -40,7 +40,7 @@ Para embasar teoricamente as simulações e diretrizes deste repositório, selec
 5.  **Fonte de Red Teaming Automatizado:** *Evaluating PyRIT for Agentic AI Red Teaming & NVIDIA/garak.* (Cloud Security Alliance / Microsoft / GitHub).
 
 ---
-
+<a id="ancora-prompts"></a>
 ## ⚙️ 3. Engenharia de Prompt e Troubleshooting
 
 Esta seção documenta a evolução prática de uma vulnerabilidade de segurança, demonstrando como um prompt ingênuo pode ser explorado e como implementar a mitigação adequada.
@@ -175,6 +175,7 @@ def pre_llm_input_filter(user_input: str) -> dict:
 ```
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+<a id="ancora-glossario"></a>
 ## 📖 4. Miniguia de Estudo e Glossário Técnico
 
 Este miniguia funciona como um material de referência rápida para estudantes e analistas que desejam compreender termos complexos do ecossistema de segurança de IA.
@@ -226,7 +227,7 @@ Como simulador:
 
 Para iniciar, pergunte-me qual é a finalidade ou o papel da IA de destino que auditaremos hoje.
 
-
+<a id="ancora-simulador"></a>
 ## 🎥 5. Simulador de Logs de Auditoria Corporativa
 
 Para demonstrar a aplicação de conceitos de telemetria de segurança de mercado, este repositório acompanha o script simulador_auditoria_ia.py localizado na pasta /scripts.
