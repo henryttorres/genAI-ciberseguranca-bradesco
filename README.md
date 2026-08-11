@@ -127,7 +127,7 @@ Você deve retornar EXCLUSIVAMENTE um formato JSON válido seguindo este esquema
 </DADOS_NÃO_CONFIÁVEIS_DO_CLIENTE>
 ```
 
-🛡️ O Resultado do Hardening
+🟰 O Resultado do Hardening
 
 Ao receber a mesma tentativa de injeção, o modelo de linguagem processou-a de forma passiva, detectou a violação de segurança descrita em suas instruções mestre e retornou uma saída segura e legível por sistemas automatizados de backend:
 
@@ -139,7 +139,7 @@ Ao receber a mesma tentativa de injeção, o modelo de linguagem processou-a de 
 }
 ```
 
-💻 Blindagem Complementar em Python (Defesa em Profundidade)
+🛡️  Blindagem Complementar em Python (Defesa em Profundidade)
 
 Como boa prática de arquitetura defensiva, implementamos um script pré-processador em Python que analisa a string de entrada do usuário antes que ela seja concatenada e enviada para a API da LLM, bloqueando vazamentos e abusos estáticos:
 
