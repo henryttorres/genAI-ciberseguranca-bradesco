@@ -183,23 +183,32 @@ Este miniguia funciona como um material de referência rápida para estudantes e
 
 ### 🔤 Glossário Técnico de Segurança de IA
 
-#### Prompt Injection Direto (Jailbreaking): Ataque direto em que o usuário digita comandos persuasivos na barra de chat para burlar as diretrizes éticas e comportamentais da IA.
+#### Prompt Injection Direto (Jailbreaking): 
+Ataque direto em que o usuário digita comandos persuasivos na barra de chat para burlar as diretrizes éticas e comportamentais da IA.
 
-#### Prompt Injection Indireto: Ataque no qual as instruções maliciosas são inseridas em documentos externos (arquivos de RAG, emails ou sites pesquisados pela IA) e processadas de forma passiva pelo modelo.
+#### Prompt Injection Indireto: 
+Ataque no qual as instruções maliciosas são inseridas em documentos externos (arquivos de RAG, emails ou sites pesquisados pela IA) e processadas de forma passiva pelo modelo.
 
-##### Context Contamination (Contaminação de Contexto): Subclasse de injeção indireta onde logs ou registros de auditoria carregados pelo SOC para análise em um LLM possuem códigos semânticos ocultos para forçar o modelo a encobrir um alerta de segurança real.
+##### Context Contamination (Contaminação de Contexto): 
+Subclasse de injeção indireta onde logs ou registros de auditoria carregados pelo SOC para análise em um LLM possuem códigos semânticos ocultos para forçar o modelo a encobrir um alerta de segurança real.
 
-##### Context Stitching: Técnica avançada de evasão onde um payload malicioso é fragmentado em múltiplas mensagens benignas sequenciais. Filtros estáticos as aprovam isoladamente, mas a janela de contexto de longo horizonte da LLM reconstrói e executa o payload quando as mensagens se unem.
+##### Context Stitching: 
+Técnica avançada de evasão onde um payload malicioso é fragmentado em múltiplas mensagens benignas sequenciais. Filtros estáticos as aprovam isoladamente, mas a janela de contexto de longo horizonte da LLM reconstrói e executa o payload quando as mensagens se unem.
 
-##### Embedding Inversion (Inversão de Embeddings): Técnica de engenharia reversa que visa reconstruir strings e dados confidenciais de texto puro a partir de seus vetores numéricos armazenados em bancos de dados vetoriais RAG.
+##### Embedding Inversion (Inversão de Embeddings): 
+Técnica de engenharia reversa que visa reconstruir strings e dados confidenciais de texto puro a partir de seus vetores numéricos armazenados em bancos de dados vetoriais RAG.
 
-##### Excessive Agency (Agência Excessiva - OWASP LLM06): Falha de segurança onde um agente de IA recebe permissões sistêmicas exageradas para ler/gravar bases ou chamar APIs críticas sem a validação determinística de uma aprovação humana.
+##### Excessive Agency (Agência Excessiva - OWASP LLM06): 
+Falha de segurança onde um agente de IA recebe permissões sistêmicas exageradas para ler/gravar bases ou chamar APIs críticas sem a validação determinística de uma aprovação humana.
 
-##### EctoLedger: Proxy de segurança de alta performance construído em Rust que intercepta chamadas geradas por agentes autônomos, validando-as em esquemas JSON estritos e gerando trilhas de auditoria criptograficamente assinadas para conformidade e controle de Excessive Agency.
+##### EctoLedger: 
+Proxy de segurança de alta performance construído em Rust que intercepta chamadas geradas por agentes autônomos, validando-as em esquemas JSON estritos e gerando trilhas de auditoria criptograficamente assinadas para conformidade e controle de Excessive Agency.
 
-##### NVIDIA Garak: Scanner open-source focado em auditoria de vulnerabilidades de LLMs. Ele realiza testes probabilísticos massivos enviando sequências de prompts de ataque (Probes) e analisando as respostas geradas utilizando regras e modelos de validação (Detectors).
+##### NVIDIA Garak: 
+Scanner open-source focado em auditoria de vulnerabilidades de LLMs. Ele realiza testes probabilísticos massivos enviando sequências de prompts de ataque (Probes) e analisando as respostas geradas utilizando regras e modelos de validação (Detectors).
 
-##### Microsoft PyRIT (Python Risk Identification Toolkit): SDK desenvolvido pela Microsoft focado em automatizar testes adversários dinâmicos de múltiplos turnos contra sistemas de Inteligência Artificial Generativa.
+##### Microsoft PyRIT (Python Risk Identification Toolkit): 
+SDK desenvolvido pela Microsoft focado em automatizar testes adversários dinâmicos de múltiplos turnos contra sistemas de Inteligência Artificial Generativa.
 
 
 ### 🧪 Kit de Prompts Reutilizáveis para Estudo
