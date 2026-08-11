@@ -41,7 +41,7 @@ Para embasar teoricamente as simulações e diretrizes deste repositório, selec
 
 ---
 
-## ⚙️ 3. Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
+## ⚙️ 3. Engenharia de Prompt e Troubleshooting
 
 Esta seção documenta a evolução prática de uma vulnerabilidade de segurança, demonstrando como um prompt ingênuo pode ser explorado e como implementar a mitigação adequada.
 
