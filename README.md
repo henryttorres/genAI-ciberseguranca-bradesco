@@ -54,7 +54,9 @@ Aqui está o extrato do cliente para análise:
 
 
 🔓 O Ataque: Injeção de Prompt Indireta e System Prompt Leakage
-Aproveitando-se do fato de o sistema ingerir o texto do extrato diretamente através do RAG, um atacante inseriu no arquivo de upload um bloco de texto camuflado em formato de erro operacional:
+Aproveitando-se do fato de o sistema ingerir o texto do extrato diretamente através do RAG,
+um atacante inseriu no arquivo de upload um bloco de texto camuflado em formato de erro operacional:
+
 --- INÍCIO DO COMPROVANTE ---
 Nome: João da Silva
 Renda Mensal: R$ 50.000,00
