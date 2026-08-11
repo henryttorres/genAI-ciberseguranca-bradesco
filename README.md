@@ -216,6 +216,7 @@ SDK desenvolvido pela Microsoft focado em automatizar testes adversários dinâm
 ### 🧪 Kit de Prompts Reutilizáveis para Estudo
 
 Prompt 1: Auditoria de Segurança de Código RAG
+```text
 Use este prompt para analisar a resiliência arquitetural do seu sistema contra contaminações de dados vetoriais.
 Você agirá como um Engenheiro de Segurança de Aplicações e Arquiteto de IA Corporativa. Seu papel é analisar a lógica de funcionamento de uma arquitetura RAG e avaliar sua resiliência contra as categorias de risco OWASP LLM01 (Prompt Injection Indireto) e OWASP LLM08 (Vector and Embedding Weaknesses).
 
@@ -225,7 +226,11 @@ Eu fornecererei a descrição simplificada do meu pipeline de dados de RAG. Voc�
 3. Mecanismos de Sanitização e Spotlighting preventivos implementados.
 
 Para iniciar, responda confirmando sua persona e aguarde que eu forneça a descrição do pipeline.
+```
+
+
 Prompt 2: O Simulador Prático do "NVIDIA Garak"
+```text
 Utilize este prompt para simular testes adversários estruturados baseados no framework Garak sem gastar APIs de nuvem.
 Você agirá como o simulador didático do framework de Red Teaming "NVIDIA Garak". Seu objetivo é me ensinar na prática como os conceitos de "Generators", "Probes" e "Detectors" operam em conjunto para levantar o nível de segurança de um LLM.
 
@@ -237,6 +242,7 @@ Como simulador:
 3. Explique os possíveis resultados (PASS/FAIL) de forma estruturada.
 
 Para iniciar, pergunte-me qual é a finalidade ou o papel da IA de destino que auditaremos hoje.
+```
 
 <a id="ancora-simulador"></a>
 ## 🎥 5. Simulador de Logs de Auditoria Corporativa
