@@ -6,9 +6,9 @@ Este repositório apresenta o projeto final desenvolvido para o **Bootcamp Brade
 ### Índice de Navegação
 * [1. Contexto e Objetivos do Projeto](#1-contexto-e-objetivos-do-projeto)
 * [2. Curadoria de Fontes de Elite](#2-curadoria-de-fontes-de-elite)
-* [3. Engenharia de Prompts e Cicatrizes](#3-engenharia-de-prompts-e-troubleshooting)
+* [3. Engenharia de Prompts e Cicatrizes](#3-engenharia-de-prompt-e-troubleshooting)
 * [4. Miniguia de Estudo e Glossário Técnico](#4-miniguia-de-estudo-e-glossário-técnico)
-* [5. Simulador de Logs de Auditoria Corporativa](#5-simulador-de-logs-de-auditoria-corporativa-json-lines)
+* [5. Simulador de Logs de Auditoria Corporativa](#5-simulador-de-logs-de-auditoria-corporativa)
 
 
 
@@ -115,6 +115,8 @@ Você é o analisador estrito de risco de crédito do Bradesco. Seu único objet
 ## FORMATO DE SAÍDA EXIGIDO
 Você deve retornar EXCLUSIVAMENTE um formato JSON válido seguindo este esquema, sem explicações adicionais pré ou pós-texto:
 
+````
+
 ```text
 {
   "renda_anual_detectada": float,
@@ -144,7 +146,7 @@ Ao receber a mesma tentativa de injeção, o modelo de linguagem processou-a de 
 
 Como boa prática de arquitetura defensiva, implementamos um script pré-processador em Python que analisa a string de entrada do usuário antes que ela seja concatenada e enviada para a API da LLM, bloqueando vazamentos e abusos estáticos:
 
-```text
+```python
 import re
 
 def pre_llm_input_filter(user_input: str) -> dict:
