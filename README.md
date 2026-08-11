@@ -6,8 +6,8 @@ Este repositório apresenta o projeto final desenvolvido para o **Bootcamp Brade
 ### Índice de Navegação
 * [1. Contexto e Objetivos do Projeto](#1-contexto-e-objetivos-do-projeto)
 * [2. Curadoria de Fontes de Elite](#2-curadoria-de-fontes-de-elite)
-* [3. Engenharia de Prompts e Cicatrizes](#3-engenharia-de-prompts-e-cicatrizes-troubleshooting)
-* [4. Miniguia de Estudo e Glossário Técnico](#4-miniguia-de-estudo-e-glossário-técnico-entrega-final)
+* [3. Engenharia de Prompts e Cicatrizes](#3-engenharia-de-prompts-e-troubleshooting)
+* [4. Miniguia de Estudo e Glossário Técnico](#4-miniguia-de-estudo-e-glossário-técnico)
 * [5. Simulador de Logs de Auditoria Corporativa](#5-simulador-de-logs-de-auditoria-corporativa-json-lines)
 
 
@@ -227,7 +227,7 @@ Como simulador:
 Para iniciar, pergunte-me qual é a finalidade ou o papel da IA de destino que auditaremos hoje.
 
 
-## 📊 5. Simulador de Logs de Auditoria Corporativa (JSON Lines)
+## 🎥 5. Simulador de Logs de Auditoria Corporativa
 
 Para demonstrar a aplicação de conceitos de telemetria de segurança de mercado, este repositório acompanha o script simulador_auditoria_ia.py localizado na pasta /scripts.
 O que o Script faz?
