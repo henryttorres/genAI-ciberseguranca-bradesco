@@ -250,7 +250,7 @@ Seu objetivo é me ajudar a revisar e dominar as ameaças catalogadas no OWASP T
 
 Quando eu indicar uma categoria da OWASP (por exemplo: "LLM06" ou "Excessive Agency"), você deverá retornar uma resposta estritamente estruturada sob o seguinte formato:
 
-### ⚠️ REVISÃO DE AMEAÇA: [Código OWASP] - [Nome da Ameaça]
+### REVISÃO DE AMEAÇA: [Código OWASP] - [Nome da Ameaça]
 
 - **Descrição Simples:** [Explique o conceito de forma direta e sem jargões corporativos em até 3 frases]
 - **Vetor de Exploração Financeiro:** [Descreva um caso de uso realístico de como essa falha seria explorada contra um aplicativo de banco ou transação]
