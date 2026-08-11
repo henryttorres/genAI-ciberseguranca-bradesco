@@ -3,6 +3,12 @@
 Este repositório apresenta o projeto final desenvolvido para o **Bootcamp Bradesco - GenAI, Dados & Cyber** em parceria com a **Digital Innovation One (DIO)**. O objetivo deste projeto é demonstrar a convergência entre a IA Generativa como ferramenta de aceleração defensiva e os novos vetores de risco semântico que exigem blindagem arquitetural e simulação de ameaças no setor bancário.
 
 
+### Índice de Navegação
+* [1. Contexto e Objetivos do Projeto](#1-contexto-e-objetivos-do-projeto)
+* [2. Curadoria de Fontes de Elite](#2-curadoria-de-fontes-de-elite)
+* [3. Engenharia de Prompts e Cicatrizes](#3-engenharia-de-prompts-e-cicatrizes-troubleshooting)
+* [4. Miniguia de Estudo e Glossário Técnico](#4-miniguia-de-estudo-e-glossário-técnico-entrega-final)
+* [5. Simulador de Logs de Auditoria Corporativa](#5-simulador-de-logs-de-auditoria-corporativa-json-lines)
 
 
 
