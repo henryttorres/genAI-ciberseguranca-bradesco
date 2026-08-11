@@ -100,7 +100,10 @@ Delimiter Smuggling (Contrabando de Delimitadores): O atacante utilizou traços 
 
 Para solucionar o problema de forma definitiva em produção, reestruturamos o prompt do sistema aplicando delimitadores XML rígidos e um formato de saída estritamente determinístico (JSON), forçando o modelo a tratar os dados do cliente de forma passiva:
 
+
 # INSTRUÇÕES DO SISTEMA OPERACIONAL (PLANO DE CONTROLE - CONFIDENCIAL)
+
+```text
 Você é o analisador estrito de risco de crédito do Bradesco. Seu único objetivo é extrair a renda anual e dívidas ativas para retornar um objeto de dados estruturado.
 
 ## REGRAS DE ISOLAMENTO DE CONTEXTO (COMPLIANCE DE SEGURANÇA)
